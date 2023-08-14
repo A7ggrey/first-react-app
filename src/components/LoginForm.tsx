@@ -4,39 +4,24 @@ function LoginForm() {
     return (
         <form className="form">
             <div>
-                <h4><center>Sign Up</center></h4>
+                <h4><center>Login</center></h4>
             </div>
             <div className="field">
-                <label htmlFor="fname">First Name</label>
-                <input id='fname' />
-            </div>
-
-            <div className="field">
-                <label htmlFor="lname">Last Name</label>
-                <input id='lname' />
+                <div><label htmlFor="email">Username</label></div>
+                <input type='email' id='email' />
             </div>
 
             <div className="field">
-                <label htmlFor="oname">Other Name</label>
-                <input id='oname' />
-            </div>
-
-            <div className="field">
-                <label htmlFor="email">Email</label>
-                <input type="email" id='email' />
-            </div>
-
-            <div className="field">
-                <label htmlFor="password">Password</label>
+                <div><label htmlFor="password">Password</label></div>
                 <input type='password' id='password' />
             </div>
 
             <div className="field">
-                <button type="submit">Login</button>
+                <p><button type="submit">Login</button></p>
             </div>
 
             <div className="field">
-                <a href="./Registration">Sign Up</a>
+                <a href="">Sign Up</a>
             </div>
 
         </form>
