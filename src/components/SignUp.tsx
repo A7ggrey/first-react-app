@@ -14,11 +14,11 @@ function SignUp() {
             </div>
 
             <div className="field">
-                <button type="submit">Login</button>
+                <button type="submit">Sign Up</button>
             </div>
 
             <div className="field">
-                <a href="./SignUp.tsx">Sign Up</a>
+                <a href="./App">Login</a>
             </div>
 
         </form>
